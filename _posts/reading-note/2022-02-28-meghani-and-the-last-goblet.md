@@ -1,31 +1,31 @@
 ---
 layout: post
-title: Meghani和《最后的酒杯》
+title: Meghani and The Last Goblet
 categories: [reading]
 tags: [reading-note]
-excerpt: 你已经吞了不少苦药。请再勇敢的喝了这杯毒酒吧！
+excerpt: "You have already swallowed much bitter medicine. Now, courageously drink this cup of poison!"
 ---
 
-李敖青年时期的名篇《十三年和十三月》曾鼓舞了无数青年学子。文中提及到改译印度古吉拉特诗人的两句诗：
+Li Ao's famous work from his youth, Thirteen Years and Thirteen Months, once inspired countless young students. In the text, he mentions a translation of two verses by an Indian Gujarati poet:
 ```
-你已经吞了不少苦药。
-请再勇敢的喝了这杯毒酒吧！
+You have already swallowed much bitter medicine.
+Now, courageously drink this cup of poison!
 ```
-诗句刚健勇猛，豪气万千，台大“长衫怪”在困顿中保持昂扬斗志的形象跃然纸上。来吧，吃苦不可怕，毒酒又何惧？青年李敖惧怕自己退缩，惧怕自己成为乡愿、甚于惧怕死。这令人同时想到孔子和苏格拉底。孔曰：“志士仁人，无求生以害仁，有杀身以成仁。”而毒酒，在苏格拉底死后就成了为追求真理献身的象征。
+These lines are powerful and heroic, exuding a spirit of grandeur, vividly portraying the image of the "long-robed eccentric" at National Taiwan University who maintained an indomitable spirit despite difficulties. Come on, enduring hardship is nothing to fear, so why fear a cup of poison? The young Li Ao feared becoming complacent or cowardly far more than he feared death. This simultaneously brings to mind Confucius and Socrates. Confucius said, "The noble man does not seek to live at the cost of harming righteousness but is willing to give up life to achieve righteousness." And the poison, after Socrates' death, became a symbol of sacrifice in the pursuit of truth.
 
-李敖并没有写明是哪位诗人的哪首诗，此诗又是为何而写。我一直念念不忘，最近似乎找到了线索。
+Li Ao did not specify which poet or which poem this was, nor the circumstances under which it was written. I have always been curious, and recently I seem to have found a clue.
 
-古吉拉特邦在印度最西边，临近巴基斯坦，是圣雄甘地的故乡。李敖改写的诗，有可能来自古吉拉特诗人Jhavercanda Meghani(贾维昌德·梅加尼，1897-1947)的*Chhello Katoro*（The last goblet,《最后的酒杯》）。Meghani是一位杰出的古吉拉特诗人，他曾搜罗了故乡的民间传说并出版。Meghani同时也是热心的自由斗士和记者，毕生致力于印度独立运动。甘地称他为“国民诗人”。他的著作超过百部，包括小说、短篇小说、文学评论散文和诗歌，当中尤其以爱国诗歌著称，为人传颂经久不衰。
+Gujarat is located in the westernmost part of India, near Pakistan, and is the homeland of Mahatma Gandhi. The poem that Li Ao rephrased may come from Chhello Katoro (The Last Goblet) by Gujarati poet Jhaverchand Meghani (1897-1947). Meghani was a prominent Gujarati poet who collected and published the folk tales of his homeland. He was also a passionate freedom fighter and journalist, dedicated his life to the Indian independence movement. Gandhi called him the "national poet." His works, exceeding a hundred volumes, include novels, short stories, literary criticism essays, and poetry, with his patriotic poems being particularly famous and enduring.
 
-<img alt="1999年印度邮票上的梅加尼" src="./assets/Jhaverchand_Meghani_1999_stamp_of_India.jpeg" style="width: 300px" />
+<img alt="Meghani on a 1999 Indian stamp" src="./assets/Jhaverchand_Meghani_1999_stamp_of_India.jpeg" style="width: 300px" />
 
-1930年，Meghani因写了*Sindhudo*一书而被判处2年徒刑，该书收录了激励印度青年参加反对英属印度独立斗争的歌曲。同年，甘地领导了盐行运动，为抗议殖民政府的食盐公卖制，甘地从德里到艾哈迈达巴德游行达400公里，数以千计的人们徒步到海边自己取盐，抗拒给政府交税。
+In 1930, Meghani was sentenced to two years in prison for writing Sindhudo, a book that compiled songs encouraging Indian youth to join the struggle for independence from British rule. That same year, Gandhi led the Salt March, a 400-kilometer march from Delhi to Ahmedabad, in protest of the colonial government's salt monopoly. Thousands of people walked to the seaside to collect salt themselves, resisting the government tax.
 
-甘地以非暴力、公民抗命等手段与英殖民政府作斗争，一生曾绝食十几次。印度自古盛行苦修，常有苦行僧蓬头垢面、衣衫褴褛，忍受常人认为是痛苦的事。甘地的苦行，既是锻炼自身意志，也是将对抗殖民政府的战场，引到自己身体上。身体腐朽了，但精神却净化了。他把强权引进自己的体内，用每一寸毛孔每一具器官去和它作战。真正能满足他的是食物以外的东西，完全超出了单纯的物质层面。
+Gandhi used non-violence and civil disobedience to fight against the British colonial government, fasting more than ten times in his life. Fasting has long been prevalent in India, with ascetics often living in squalor, enduring hardships that ordinary people would find unbearable. Gandhi's fasting was both a way to train his own willpower and a method of shifting the battleground against the colonial government to his own body. While the body decays, the spirit is purified. He internalized the struggle against authority, battling it with every pore and organ of his body. What truly satisfied him was something beyond mere physical sustenance.
 
-1931年，甘地启程前往伦敦参加圆桌会议与英国政府谈判，Meghani在甘地临行前写了这首*Chhello Katoro*献给他。
+In 1931, as Gandhi set off for London to attend the Round Table Conference for negotiations with the British government, Meghani wrote Chhello Katoro to send him off.
 
-以下为Shirin Kudchedkar翻译的英文版：
+Here is the English translation by Shirin Kudchedkar:
 
 ```
 Drink up this last goblet of poison, father!
@@ -84,7 +84,7 @@ Go ahead, it is God who is your guide,
 Father, drink up this last goblet of poison.
 ```
 
-本人根据英文本翻译的中文版：
+Here is my translation of the English version into Chinese:
 ```
 喝光这最后一杯毒药吧，父亲！
 大洋中的掠食者啊！不要洒出一滴献祭！
