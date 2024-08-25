@@ -1,156 +1,160 @@
 ---
 layout: post
-title: 《文明的基因》笔记
+title: "Notes on 'The Gene of Civilization'"
 categories: [reading]
 tags: [reading-note]
-excerpt: 杨照老师《讲给大家的中国历史》第二卷
+excerpt: "This is the second volume of Yang Zhao's 'Chinese History Told to Everyone.'"
 ---
 
-## 中国文明的主流来自周文化
+## The Mainstream of Chinese Civilization Stems from Zhou Culture
 
-周代之前，天下共主商人并不能在文化上统合其他部族。但周人的惊人影响力却维持了数千年，从公元前11世纪到公元19世纪，中华文化的基本价值、基本元素维持不变。
+Before the Zhou Dynasty, the Shang rulers could not culturally unify other tribes. However, the Zhou people's remarkable influence persisted for thousands of years, from the 11th century BCE to the 19th century CE, maintaining the core values and elements of Chinese culture.
 
-## 周人的世界观——天的观念和信仰
+## The Zhou People's Worldview — The Concept and Belief in 'Heaven'
 
-商人相信祖先化为`鬼神`，鬼神世界高于人间，而`巫`能穿越人鬼，能操纵、借助鬼神的力量，因为巫有至高权威。为了通天地，商人有青铜器、问卜、文字等工具。`帝`是鬼神世界最高权威，是祖先中最厉害的。
-与商人信奉鬼神不同，周人相信`天`。天没有拟人形象，天是抽象的，是公平的超越评判力量，君临所有人。既不属于周人，也不会独厚周人。行事符合天的规矩原则，天就会保佑你，相反则会被惩罚。天和人的关系，就是周人的天人观。
+The Shang people believed that ancestors became 'ghosts and spirits' (鬼神), and the spirit world was above the human world. 'Shamans' (巫) could traverse the realms of humans and spirits, wielding and leveraging the power of spirits due to their supreme authority. To communicate with the heavens, the Shang used tools such as bronze vessels, divination, and writing. The 'Di' (帝) was the supreme authority in the spirit world, the most powerful of the ancestors.
 
-`天命`是天人关系的最重要一环，人凭天命成为统治者，统治的根本权力来自天，天也能褫夺不够格的统治者的权力。
+In contrast, the Zhou people believed in 'Heaven' (天). Heaven had no anthropomorphic image; it was abstract, a fair and transcendent judging force that ruled over all people. It neither belonged to the Zhou people nor favored them exclusively. If actions conformed to Heaven's principles, it would protect you; otherwise, you would be punished. The relationship between Heaven and humans constituted the Zhou people's worldview.
 
-## 宗法封建制
+'The Mandate of Heaven' (天命) was the most crucial link in the Heaven-human relationship. A person became a ruler by Heaven's mandate, and the fundamental authority of governance came from Heaven, which could also revoke the power of unqualified rulers.
 
-周人留在中国文明的第二个长久印记是`宗法`，是对亲族的重视。
+## The Patriarchal Feudal System
 
-宗法和`封建`紧密相连，封建取代了夏商原有的共主形式。封建的实质是派出由周人亲族组成的武装殖民部队，进入其他合作的部落。借封建扩展，周人将原本呈现多元文化状况的中国地区逐步同化。
+The second long-lasting imprint the Zhou left on Chinese civilization was the 'patriarchal system' (宗法), which emphasized the importance of kinship.
 
-封建带来的最强大影响是`亲族系统`，自此中国社会人际组织一直是以亲族关系为核心的`同心圆模式`(差序格局、五服)。
+Patriarchy was closely linked with 'feudalism' (封建), which replaced the previous Shang and Xia communal chiefdoms. The essence of feudalism was dispatching armed colonizing forces composed of Zhou relatives to enter and collaborate with other tribes. Through feudal expansion, the Zhou gradually assimilated the culturally diverse regions of China.
 
-随着封建开展，周人也设计了成为中华文明关键内容的`礼仪制度`。
+The most powerful impact of feudalism was the 'kinship system' (亲族系统). Since then, the organization of interpersonal relationships in Chinese society has been centered around kinship in a 'concentric circles pattern' (同心圆模式), also referred to as the differential mode of association (差序格局) and the five degrees of mourning (五服).
 
-## 汉字
+As feudalism developed, the Zhou also designed the 'ritual system' (礼仪制度), which became a crucial component of Chinese civilization.
 
-因为主要功能是占卦，文字是神秘工具，所以商人文字为表意而非记音文字。文字在商人的文化中，类似后世的道符。那是一套鬼神符号，不是用来记录人间事务的。
+## Chinese Characters
 
-周人学习了商的文字，并发明了`六书`(象形，指事，会意，形声，转注，假借)，发展出大量形声字，使文字更具记录语言的功能。汉字和语言之间，有着若即若离的关系，一方面可以随语言变化，另一方面又不完全受语言快速变化现象影响，可以独立于语言之外存在。这是维持中国语言多样性极强的广大区域文化统合、政治统一的关键之一。
+Since their primary function was divination, Shang characters were logographic (表意文字) rather than phonetic. In Shang culture, writing resembled talismans (道符) in later eras—a set of ghostly symbols not meant for recording mundane affairs.
 
-周人让文字从神巫手里解放，开始记录人事，文字和生活有了紧密联系，从此传承三千年。
+The Zhou learned Shang's script and invented the 'Six Principles of Writing' (六书), developing numerous phonetic characters, enhancing the script's capability to record language. The relationship between Chinese characters and language is tenuous; they can adapt to linguistic changes while remaining partially independent of rapid linguistic shifts. This independence is a key factor in maintaining cultural integration and political unity across China's vast, linguistically diverse regions.
 
-### 六书
+The Zhou liberated writing from the hands of shamans, making it a tool for recording human affairs, thus closely linking writing with daily life—a tradition that has persisted for three thousand years.
 
-* 造字法: 象形，指事 （文）
-* 组字法: 会意，形声 （字）
-* 用字法: 转注，假借 （字）
+### Six Principles of Writing (六书)
 
-象形：日月山水
-指事：上下
-会意：武信
-形声：江河（形声字最多）
-转注：考老
-假借：北-》背（同音替代）
+* Word Formation: Pictographs (象形), Ideographs (指事) (文)
+* Character Composition: Compound Ideographs (会意), Phonetic Compounds (形声) (字)
+* Usage: Associative Compounds (转注), Loan Characters (假借) (字)
 
-### 文、名、字
+Pictographs: Sun (日), Moon (月), Mountain (山), Water (水)  
+Ideographs: Above (上), Below (下)  
+Compound Ideographs: Martial (武), Trust (信)  
+Phonetic Compounds: River (江), Jiang (河) (Phonetic compounds are the most numerous)  
+Associative Compounds: Test (考), Old (老)  
+Loan Characters: North -> Back (北 -> 背) (phonetic substitution)
 
-陈梦家将汉字分成`文``名``字`三类。能直接理会其指涉的是文，如“其”代表簸箕。利用同音给人、物命名，则为名，如箕子。文衍生出来的就是字，如“棋”“麒”。
+### Wén (文), Míng (名), and Zì (字)
 
-## 中国的地理范围
+Chen Mengjia classified Chinese characters into three categories: Wén (文), Míng (名), and Zì (字). Wén refers to characters whose meaning can be directly understood, like '其' representing a winnowing basket. Míng involves using homophones to name people or objects, such as '箕子' (Jizi). Zì refers to characters derived from Wén, like '棋' (Chess) and '麒' (Kirin).
 
-中国文明的核心，最早是西北黄土高原，随后向东南发展。经济推移最快，政治文化man de d
- 
+## The Geographic Scope of China
 
-## 表音文字和表意文字
+The core of Chinese civilization was initially the northwestern Loess Plateau, which later expanded southeastward. The economic shift occurred the fastest, with political and cultural development following closely behind.
 
-表音文字用于记录语言，则语言为本体，文字为衍生。而中文作为表意文字，恰恰相反，文字高于语言。文字恒常不变，从鬼神到天再到人。
+## Phonetic vs. Logographic Writing
 
-## 文献中心主义
+Phonetic writing (表音文字) records language, making language the primary entity and writing its derivative. In contrast, Chinese, as a logographic script (表意文字), places writing above language. Writing remains constant, extending from ghosts to Heaven and then to humans.
 
-对中国人来说，历史就是文字写下来的记录。宋朝开始，中国就有了金石学传统，研究古代青铜器和石刻。然而文人们依然认为史书上记的才是真历史，金石与历史无关。
+## Literature-Centered Historical Perspective
 
-## 科举
+For the Chinese, history is the written record. Since the Song Dynasty, China has had a tradition of epigraphy, studying ancient bronze and stone inscriptions. However, scholars still believed that only what was recorded in historical books was the true history, and inscriptions were unrelated to it.
 
-何炳棣研究明清五万多条科举提名榜考生资料，得出结论，科举是促进中国社会阶层流动的最主要力量，有了科举，向上流动和向下流动的幅度和普遍性都增加了。榜单上不止有考生名字，还有户籍、出生、父祖身份记录——科举上榜是光宗耀祖的事。
+## The Imperial Examination System
 
-到会馆寻求协助和服务的两种人——考生、商人。商人发家后，由于社会地位低，会要求后代不再从商，而是投身科举，最不济也要转做地主。
+He Bingdi's research on over 50,000 candidate records from the Ming and Qing dynasties concludes that the imperial examination system (科举) was the main force promoting social mobility in China. With the examination system, the extent and prevalence of both upward and downward social mobility increased. The candidate lists recorded not only the names but also the domicile, birthplace, and ancestral identity of the candidates—being listed on the examination roster was a source of pride for one's ancestors.
 
-## 黄土高原生态和筑城
+Two types of people sought assistance and services at guild halls—candidates and merchants. After making a fortune, merchants, due to their low social status, would urge their descendants to avoid commerce and pursue the imperial examination, or at the very least, transition into landownership.
 
-何炳棣依据地质化石孢子分析，证明黄土高原自古干旱少水，因此合适的居住地很少。由于`夯土筑城`技术的突破和扩散，人为创造了安全聚居条件，使人可以摆脱地理限制，到更多地方经营农业聚落。
+## The Ecology of the Loess Plateau and the Construction of Cities
 
-有了城墙就有了城，有城有人，就成了`国`。
+He Bingdi, based on spore analysis of geological fossils, proved that the Loess Plateau has always been arid with little water, making suitable living areas scarce. The breakthrough and spread of 'rammed earth city construction' (夯土筑城) technology artificially created safe living conditions, enabling people to overcome geographical limitations and establish agricultural settlements in more locations.
 
-## 城邦
+With city walls came cities, and with cities, there were people, leading to the formation of 'states' (国).
 
-国）郊）野）封）鄙
+## City-States (城邦)
 
-## 国人
+States (国) -> Suburbs (郊) -> Wilderness (野) -> Fiefs (封) -> Borderlands (鄙)
 
-1 住在城里， 2 有`姓`
+## The State People (国人)
 
-国人同属一`氏`，如晋人、燕人。
- 
-## 五服
+1. Lived in the city, 2. Had a 'surname' (姓)
 
-邦内甸服，邦外侯服，侯卫宾福，蛮夷要服，戎翟荒服。 
-甸服者祭，侯服者祀，宾服者享，要服者贡，荒服者王。
-——国语·周语
+State people belonged to a common 'clan' (氏), such as the Jin people (晋人) or Yan people (燕人).
 
-甸服者祭，侯服者祀，宾服者时，要服者岁，荒服者世。
-——逸周书
+## Five Ranks of Tribute (五服)
 
-## 爵制嬗变
+* Within the state: Dianfu (甸服)  
+* Outside the state: Houfu (侯服)  
+* Border defense: Binfu (宾服)  
+* Remote regions: Yaofu (要服)  
+* Tribal areas: Huangfu (荒服)
 
-`公``侯`没有上下级关系，地位高于`伯``子``男`（恰好与欧洲类似）
+'Dianfu' offers sacrifices (祭), 'Houfu' performs rituals (祀), 'Binfu' holds feasts (享), 'Yaofu' offers tribute (贡), 'Huangfu' acknowledges the king (王).  
+— 'The Discourses of Zhou' (国语·周语)
 
-公：周核心亲族，辈分比周天子高
-侯：军功显赫，负责拱卫周天子
-伯：与周天子同辈
-子：辈分较低
-男：军事任务封爵，较低的军事责任
+'Dianfu' offers sacrifices (祭), 'Houfu' performs rituals (祀), 'Binfu' holds regular ceremonies (时), 'Yaofu' gives annual tribute (岁), 'Huangfu' offers tribute once in a generation (世).  
+— 'The Lost Book of Zhou' (逸周书)
 
-从西周到东周，随着时间和亲族扩张，产生负责错乱关系，太多代制关系无法弄明白，爵制系统逐渐失效。武力征伐成了解决纠纷的主要手法。
+## The Evolution of the Noble Ranks (爵制嬗变)
 
-其时，攻城器具和技术大幅提升，铁器、高梯双管齐下，城失去了保卫优势，容易陷落。城国的独立性快速丧失。一个国有越累越多的城。这就超出了旧有的封建制的规划。
+'Gong' (公) and 'Hou' (侯) were not hierarchical but had higher status than 'Bo' (伯), 'Zi' (子), and 'Nan' (男) (similar to the European system).
 
-到最后，`封建制`被推倒，变成选派官职人员，`郡县制`建立。
+* Gong (公): Core relatives of the Zhou, with a higher generation than the Zhou king.
+* Hou (侯): Highly meritorious in battle, responsible for guarding the Zhou king.
+* Bo (伯): Of the same generation as the Zhou king.
+* Zi (子): Of a lower generation.
+* Nan (男): Conferred with military tasks, holding lower military responsibilities.
 
-## 周公
+From the Western Zhou to the Eastern Zhou, as time passed and kinship expanded, a confused system of responsibilities emerged. The rank system gradually became ineffective, and military conquest became the primary method of resolving disputes.
 
-周公是第一位有较多史料支持、可信的历史人物，也是第一位以个人身份，在关键时刻作出关键决策，影响后世的人物——周公设计和执行了封建制。
+At this time, siege equipment and technology advanced significantly. Iron weapons and tall ladders made city walls lose their defensive advantage, leading to rapid city-state decline. A single state could have more and more cities, which exceeded the old feudal system's capacity.
 
-## 东方统治策略
+Eventually, the 'feudal system' (封建制) was overthrown and replaced by the appointment of officials, leading to the establishment of the 'prefecture-county system' (郡县制).
 
-周人封建的关键执行在于`武装殖民`。周人起源就是从戎狄中到达关中，赶走原住民，垦殖定居。再向东占领宜居的`周原`。
+## Duke of Zhou (周公)
 
-击败商人后，面对东方问题，周公的第一个策略为`大封同姓`，所有姬姓的周人都被动员起来组成武装部队，一路向东，能把东方的土地征服下来，就是你的。
+The Duke of Zhou is the first historically credible figure with considerable historical records and the first to make crucial decisions at critical moments that influenced later generations. The Duke of Zhou designed and implemented the feudal system.
 
-第二个策略，拉拢其他古氏族，组成封建体系的第二层，切断他们与商关系，纳入到共主周的新秩序里。
+## Eastern Rule Strategy (东方统治策略)
 
-第三个策略，拉拢商人。商人建立宋国，也被纳入到周封建系统中，殷商遗民加入到武装殖民大潮里。
+The key to implementing Zhou's feudalism was 'armed colonization' (武装殖民). The Zhou people originated from the Rong and Di tribes (戎狄), reached Guanzhong (关中), drove out the indigenous people, and settled down to cultivate. They then moved eastward to occupy the livable 'Zhouyuan' (周原).
 
-大的古氏族封为`诸侯`，小的部族化为国中大夫，一圈圈一层层，将整个中国编组成封建制的有机体。
+After defeating the Shang, Zhougong (Duke of Zhou) implemented three strategies to address the eastern problem:
 
+1. Extensive Enfeoffment (大封同姓): All the Zhou clan members were mobilized to form armed forces that advanced eastward. If they could conquer the eastern land, it would be theirs.
+2. Win Over Ancient Clans (拉拢古氏族): These were integrated into the second tier of the feudal system, severing their ties with the Shang and incorporating them into the new Zhou order.
+3. Win Over the Shang (拉拢商人): The Shang people established the state of Song (宋国) and were integrated into the Zhou feudal system, with the remnants of the Yin-Shang (殷商) joining the armed colonization wave.
 
-## 昭穆制
+Large ancient clans were enfeoffed as 'feudal lords' (诸侯), while smaller tribes became 'chiefs' (大夫) within the state, forming layers upon layers that turned China into a feudal organic body.
 
-昭穆是对不同辈分的固定称呼。一代昭，一代穆，不断轮流。同辈的人组成一个互通、泯除成员区别的团体。
+## The Zhu-Mu System (昭穆制)
 
-## 宗法制
+The Zhu-Mu system (昭穆制) was a fixed term for different generations. One generation was Zhu (昭), the next was Mu (穆), alternating back and forth. People of the same generation formed a group that erased member distinctions.
 
-大宗百世不迁，小宗五世而迁。
+## The Patriarchal System (宗法制)
 
-祭以尊尊，宴以亲亲。
+The main line of descent (大宗) remained in place for a hundred generations, while the minor line of descent (小宗) changed every five generations.
 
-## 嫡长子制
+Sacrifices honored hierarchy, and banquets honored kinship.
 
-嫡》长》贤》卜
+## Primogeniture (嫡长子制)
 
-## 诸子的源头
+The principles of succession were: Legitimate (嫡) > Elder (长) > Worthy (贤) > Divination (卜).
 
-周人不问鬼神，而重视三种关系： 1天人关系 2先人与今人关系 3人与人日常联系。
+## The Origins of the Hundred Schools of Thought (诸子的源头)
 
-因此，需要人记录历史、盟誓、交流，以及维护宗法关系。
+The Zhou people did not focus on ghosts and spirits but emphasized three relationships: 1. The relationship between Heaven and humans (天人关系), 2. The relationship between ancestors and the present (先人与今人关系), and 3. The relationships between people in daily life (人与人日常联系).
 
-几代的分封之后，会有宗族沦为庶人。
+Thus, people were needed to record history, take oaths, communicate, and maintain the patriarchal system.
 
-## 《老子》成书年代
+After several generations of enfeoffment, some clans would decline to commoner status.
 
-不早于战国后期，大概率晚于《庄子》。理由有 1专有名词出现 2字词使用变化 3事物与观念 4行文风格（雄辩） 5押韵变化
+## The Date of the Book of Laozi (《老子》成书年代)
+
+The Book of Laozi was not written earlier than the late Warring States period and was likely composed after the Zhuangzi (《庄子》). The reasoning includes: 1. The appearance of specialized terms, 2. Changes in word usage, 3. The emergence of concepts and ideas, 4. The argumentative style, and 5. Changes in rhyming patterns.

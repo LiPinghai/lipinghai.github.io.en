@@ -1,27 +1,43 @@
 ---
 layout: post
-title: 《西学东渐记》笔记
+title: "Notes on 'My Life in China and America'"
 categories: [reading]
 tags: [reading-note]
-excerpt: 《西学东渐记》写于1898年，记叙了容闳自幼求学港澳，赴美留学，上海工作营商，与太平军交涉，采办江南制造局机械，促成与领队留美学生幼童等平生大事。原著为英文，后由徐凤石、恽铁樵译成文言。
+excerpt: "'My Life in China and America' was written in 1898 and recounts Yung Wing's life events such as studying in Hong Kong and Macau, studying abroad in the United States, working and conducting business in Shanghai, negotiating with the Taiping Army, purchasing machinery for the Jiangnan Arsenal, and leading young students to study in America. The original work was in English, later translated into classical Chinese by Xu Fengshi and Yun Tieqiao."
 ---
 
-> 容闳自传《西学东渐记》写于1898年，记叙了容氏自幼求学港澳，赴美留学，上海工作营商，与太平军交涉，采办江南制造局机械，促成与领队留美学生幼童等平生大事。原著为英文，后由徐凤石、恽铁樵译成文言。
+> Yung Wing's autobiography, 'My Life in China and America,' was written in 1898. It recounts his life events such as studying in Hong Kong and Macau, studying abroad in the United States, working and conducting business in Shanghai, negotiating with the Taiping Army, purchasing machinery for the Jiangnan Arsenal, and leading young students to study in America. The original work was in English, later translated into classical Chinese by Xu Fengshi and Yun Tieqiao.
 
-1. 1847年，容闳赴美留学途中路过圣赫勒拿岛，上岸拜谒了拿破仑陵墓，取坟前柳枝，培植移栽于纽约。7年后学成归国时，柳枝已长成大树垂条万缕。
-2. 船近香港，港口华籍领航员登船，船长让容闳问领航员何处有暗礁，有无危险？容闳不知暗礁中文词汇，大囧。幸好领航员通英语。
-2. 与容闳同学十余年的好友黄宽，为得到奖学金维持学业，转至苏格兰爱丁堡学医，成为中国首位医学博士。黄宽一代名医，医术精深，尤擅外科。在粤西人甚至相信黄宽多于其他西人医生。可惜四十九岁英年早逝。
-3. 容闳归国后见到阔别十年的老母，母亲说你哥还没蓄须（其时男性婚后留须），容闳随即找理发匠剃了。
-4. 粤人暴动，粤督叶名琛极其残暴镇压，杀七万五千人，过半为无辜者。盖叶名琛本籍汉阳，汉阳屡遭太平军兵燹，故叶恨粤人切齿。容闳住处离刑场一里，见尸横遍野，愤懑之极。后叶被英军掳至印度客死他乡，世人唾弃。
-5. 黄河决堤，难民涌入上海，容闳撰一西文募捐，数日竟得外商捐款二万元。
-6. 湘潭为货物集散枢纽，南岭以肩挑背负为生者不下十万。
-7. 印度茶浓烈，中国茶香醇，故西人上流社会嗜中国茶，寻常百姓好印茶味浓价廉。
-8. 容闳提及两次从上海到汉口，皆经杭州、衢州到鄱阳湖，再坐船到汉口。盖因其时太平军占安庆南京，长江水路不通。途经浙赣湘鄂四省遭太平军、官军掠夺人口凋零，春播田间竟无甚人烟。
-9. 太平军几章颇为矛盾，时褒时贬，大概由于曾文正对容闳有知遇之恩。
-10. 曾文正置书容闳约见，容闳因与太平军有交涉，疑为鸿门宴。曾公爱才再次约见，容闳方无顾虑。
-11. 容闳受曾公所托赴美采办机器后，经旧金山乘船回国。此船伙食之差，三十年后容闳花几页纸大肆鞭挞。广府老饕怨念如此。
-12. 留美幼童一百二十人，粤童占十之八九，当中又有一半为香山籍。北方人未知此留学计划。然香山籍学生数量如此众多，大抵因为离澳门香港近，不少学生有英文基础以及海外关系。
-13. 加特林机枪刚发明出来，容闳知晓此武器有大用，便拜访加特林本人购回五十挺。
-14. 第三期留美幼童督导邝其照，即广州芳村网红景点聚龙村邝家四杰之一，编撰了中国第一本英文词典《华英字典集成》。
-15. 南美、加勒比岛国华工命运之悲惨，美加华工远不能及。1869年，有部分华工组织呈文清政府，寻求保护在外的国人。可惜回应是“私自出洋的中国人为弃民，不值得加以保护。”两年后，第二份呈文才得到正面回应，清政府表示：“对磨难中的苦力表示同情，劝以容忍，并可成立一个上告团体向朝廷陈述受害情况。”于是由七名完成合约的华工所组合的上告团写了一份长篇状文与恭亲王。由各国媒体传遍了世界。容闳受李鸿章命赴秘鲁调查华工惨况，写成报告寄回国内，附上华工伤痕累累照片。清政府即禁止华工出洋，猪仔之祸遂止。然当时已在秘鲁、古巴的华工得到救助否？不得而知。恭亲王要求秘鲁把全部劳工遣返，并保证不再输入华工。最后签订了《中秘天津条约》，秘鲁政府保证维护华工的权益，而中国政府亦承认雇佣华工为合法。
-16. 华人在太平洋沿岸诸州人口占比虽然只有个位数，但由于美国选举人票制度赢家通吃，潜在影响力巨大，故引起排华法案阻止华人入籍。
+1. In 1847, on his way to study in the United States, Yung Wing passed by Saint Helena Island, where he disembarked to visit Napoleon's tomb. He took a branch from the willow tree in front of the tomb and planted it in New York. Seven years later, when he returned home after completing his studies, the branch had grown into a large tree with countless drooping branches.
+
+2. As the ship approached Hong Kong, a Chinese pilot boarded. The captain asked Yung Wing to inquire where the reefs were and if there was any danger. Yung Wing didn't know the Chinese term for reefs, causing embarrassment. Fortunately, the pilot spoke English.
+
+3. Huang Kuan, a close friend of Yung Wing who studied with him for over ten years, transferred to the University of Edinburgh in Scotland to study medicine, becoming China's first doctor of medicine. Huang Kuan became a renowned physician, highly skilled in surgery. In western Guangdong, people trusted him more than other Western doctors. Sadly, he passed away prematurely at the age of forty-nine.
+
+4. After returning to China, Yung Wing met his mother, whom he had not seen for ten years. His mother remarked that his older brother had not yet grown a beard (men typically grew beards after marriage), so Yung Wing immediately went to a barber to shave his own beard.
+
+5. During a rebellion in Guangdong, the governor Ye Mingchen brutally suppressed it, killing 75,000 people, more than half of whom were innocent. Ye Mingchen, originally from Hanyang, harbored deep hatred for the people of Guangdong because Hanyang had suffered repeatedly from the Taiping Army's destruction. Yung Wing lived a mile from the execution ground and was deeply disturbed by the sight of corpses everywhere. Later, Ye was captured by British forces and died in exile in India, despised by the world.
+
+6. When the Yellow River breached its banks, refugees flooded into Shanghai. Yung Wing wrote a fundraising appeal in English, and within a few days, he raised 20,000 yuan from foreign merchants.
+
+7. Xiangtan was a major hub for goods distribution, with over 100,000 people earning their livelihood by carrying goods on their shoulders.
+
+8. Indian tea was strong, while Chinese tea was fragrant and mellow. Therefore, Chinese tea was preferred by the Western upper class, while ordinary people favored the strong and cheap Indian tea.
+
+9. Yung Wing mentioned that he traveled from Shanghai to Hankou twice, both times passing through Hangzhou, Quzhou, and then to Poyang Lake before taking a boat to Hankou. This was because the Taiping Army occupied Anqing and Nanjing at the time, blocking the Yangtze River route. He passed through Zhejiang, Jiangxi, Hunan, and Hubei, witnessing the devastation caused by the Taiping Army and government forces, with the countryside sparsely populated and hardly any signs of spring sowing.
+
+10. The chapters on the Taiping Army are quite contradictory, sometimes praising, sometimes criticizing, possibly due to Zeng Guofan's favor towards Yung Wing.
+
+11. Zeng Guofan invited Yung Wing for a meeting, but Yung Wing hesitated, suspecting it might be a trap because of his dealings with the Taiping Army. Zeng Guofan, appreciating Yung Wing's talent, extended another invitation, putting Yung Wing at ease.
+
+12. After being commissioned by Zeng Guofan to purchase machinery in the United States, Yung Wing returned to China by ship via San Francisco. The poor quality of the food on board angered Yung Wing so much that thirty years later, he spent several pages in his book condemning it. The resentment of a Cantonese gourmet ran deep.
+
+13. Among the 120 young Chinese students sent to study in the United States, 80-90% were Cantonese, and half of them were from Xiangshan. Northern Chinese were unaware of this study-abroad program. The large number of students from Xiangshan was likely due to the proximity to Macau and Hong Kong, where many had a basic knowledge of English and overseas connections.
+
+14. When the Gatling gun was first invented, Yung Wing recognized its potential and visited Gatling himself to purchase fifty units.
+
+15. The third group of young students sent to study in the United States was supervised by Kuang Qizhao, one of the four famous brothers of Julong Village in Fangcun, Guangzhou. He compiled the first Chinese-English dictionary, 'A Chinese-English Dictionary Compiled by Kuang.'
+
+16. The plight of Chinese laborers in South America and the Caribbean was much worse than that of Chinese laborers in the United States and Canada. In 1869, some Chinese laborers petitioned the Qing government for protection. Unfortunately, the response was that 'Chinese who privately went abroad were abandoned people and not worth protecting.' It wasn't until two years later that the second petition received a positive response. The Qing government expressed 'sympathy for the suffering laborers and advised them to endure, while a petitioning group could be formed to present their grievances to the court.' Seven laborers who had completed their contracts formed a petitioning group and submitted a lengthy document to Prince Gong. This was spread worldwide by various media. Yung Wing, under the orders of Li Hongzhang, went to Peru to investigate the horrific conditions of Chinese laborers and wrote a report that he sent back to China, along with photographs of laborers with their bodies covered in scars. The Qing government immediately banned the export of Chinese laborers, putting an end to the pig trade. However, whether the Chinese laborers already in Peru and Cuba were rescued remains unknown. Prince Gong demanded that Peru repatriate all Chinese laborers and promise not to import any more. Finally, the 'Treaty of Tientsin' was signed between China and Peru, with the Peruvian government guaranteeing the rights of Chinese laborers, and the Chinese government recognizing the legality of hiring Chinese laborers.
+
+17. Although the Chinese population along the Pacific coast states accounted for only a single-digit percentage, due to the winner-takes-all electoral vote system in the United States, their potential influence was enormous. This led to the passage of the Chinese Exclusion Act, which prevented Chinese from becoming citizens.
