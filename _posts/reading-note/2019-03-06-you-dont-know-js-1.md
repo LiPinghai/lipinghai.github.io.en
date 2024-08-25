@@ -1,74 +1,76 @@
 ---
 layout: post
-title: 《你不知道的JS》上卷读书笔记
+title: "Notes on 'You Don't Know JS (Up & Going)'"
 categories: [tech]
 tags: [reading-note]
-excerpt: 《你不知道的JS》上卷读书笔记。Kyle Simpson的这部*you don't know JavaScript*实属不可多得的好书，深入浅出地解释了语言本身的诸多令人费解复杂概念的内部实现，读罢如醍醐灌顶豁然开朗，重建了对JS的整体视野，建议有一年以上经验的前端工程师都读读。
+excerpt: "Notes on 'You Don't Know JS (Up & Going)'. Kyle Simpson's book is a must-read for frontend developers with over a year of experience. It provides a deep understanding of JavaScript's complex concepts, offering clarity and a renewed perspective on the language."
 ---
-# 《你不知道的JS》上卷读书笔记
-> Kyle Simpson的这部*you don't know JavaScript*实属不可多得的好书，深入浅出地解释了语言本身的诸多令人费解复杂概念的内部实现，读罢如醍醐灌顶豁然开朗，重建了对JS的整体视野，建议有一年以上经验的前端工程师都读读。
 
-## 作用域
+# Notes on 'You Don't Know JS (Up & Going)'
 
-### js是一门编译语言
-- 分词/词法分析（tokenizing/lexing）
-- 解析/语法分析（parsing），生成ast
-- 可执行代码生成
+> Kyle Simpson's book *You Don't Know JavaScript* is an invaluable resource, offering clear and in-depth explanations of many of JavaScript's complex and confusing concepts. After reading, you'll have a much clearer understanding of the language and a rebuilt perspective on JS. It's highly recommended for frontend developers with over a year of experience.
 
-### 声明和赋值   
-- 变量的赋值操作
-    1. LHS,声明变量
-    2. 赋值
-- LHS: 查找操作目标，如*var b = a*中的b，非严格模式下不成功则创建该变量，严格模式下ReferenceError
-- RHS: 查找目标的值，如*var b = a*中的a, 不成功ReferenceError
+## Scope
 
-### 词法作用域
-- js采用*词法作用域*（区别于*bash脚本等动态作用域*）
-- eval with欺骗词法，导致解析时无法优化，性能下降
-- 作用域嵌套
-    - 全局作用域
-    - 函数作用域
-        - 匿名与具名（匿名难以调试，难以自调用，可读性差）
-        - 立即执行函数表达式（IIFE, Immediately Invoked Function Expression）
-    - 块作用域
-        - try catch也是块级作用域（babel转译到es3/5）
+### JavaScript is a Compiled Language
+- Tokenizing/Lexing
+- Parsing: generates the Abstract Syntax Tree (AST)
+- Code generation
 
-### 变量提升
- - 因为在编译阶段先声明，运行阶段再赋值，所以出现变量提升。
- - 函数提升比变量提升优先
- - 多个相同var声明或函数声明，前面的会被忽略
+### Declarations and Assignments
+- Variable assignment operation
+    1. LHS: Declare the variable
+    2. Assignment
+- LHS: Finds the target for the operation, such as `b` in `var b = a`. In non-strict mode, if the variable is not found, it will be created. In strict mode, it will throw a ReferenceError.
+- RHS: Finds the value of the target, such as `a` in `var b = a`. If the target is not found, it will throw a ReferenceError.
 
-### 作用域闭包
-- 闭包即内部函数在所在的*词法作用域*之外被调用
-- 常见闭包使用
-    - setTimeout,setInterval
-    - 事件监听
-    - ajax
-    - postMessage
-    - web worker
-    - 其他异步或同步方法中用到回调函数的情况
+### Lexical Scope
+- JavaScript uses *lexical scope* (as opposed to *dynamic scope* like bash scripts)
+- `eval` and `with` can manipulate lexical scope, making optimizations difficult and leading to performance issues.
+- Scope nesting:
+    - Global scope
+    - Function scope
+        - Anonymous vs. Named (Anonymous functions are harder to debug, can't be self-invoked, and have lower readability)
+        - Immediately Invoked Function Expression (IIFE)
+    - Block scope
+        - `try...catch` is also block scope (babel transpiles to ES3/5)
 
-## this
+### Hoisting
+- Declarations are made during the compilation phase, and assignments occur during the execution phase, leading to variable hoisting.
+- Function declarations are hoisted before variable declarations.
+- Multiple `var` declarations or function declarations with the same name will ignore the previous ones.
 
-### 对this的错误认识
-- this指向自身
-- this指向函数作用域
+### Closures
+- A closure is when an inner function is called outside of its *lexical scope*.
+- Common uses of closures:
+    - `setTimeout`, `setInterval`
+    - Event listeners
+    - Ajax
+    - `postMessage`
+    - Web workers
+    - Any asynchronous or synchronous methods that use callback functions
 
-### this是什么
-- this即函数的调用者（优先级升序排列）
-    - 默认绑定（到全局）
-    - 隐式绑定（函数父级）
-    - 显式绑定（call，apply，forEach等内置函数）
-    - new调用绑定
-        - 创建一个全新对象
-        - 新对象执行原型链接
-        - 新对象绑定到函数调用的*this*
-        - 如果函数没有其他返回，则返回此新对象  
-- call函数假如传入了原始值（数字字符串布尔），会转换成对象形式（即new Number(...)）
+## `this`
 
-## 对象
+### Misconceptions about `this`
+- `this` refers to itself
+- `this` refers to the function's scope
 
-### 内置对象
+### What is `this`?
+- `this` refers to the caller of the function (in ascending order of priority):
+    - Default binding (to the global object)
+    - Implicit binding (to the parent object)
+    - Explicit binding (`call`, `apply`, `forEach`, etc.)
+    - `new` binding:
+        - Creates a new object
+        - Links the new object to the prototype
+        - Binds the new object to `this` in the function call
+        - If the function doesn't return anything else, it returns the new object
+- If `call` is passed a primitive value (number, string, boolean), it will be converted to its object form (e.g., `new Number(...)`).
+
+## Objects
+
+### Built-in Objects
 - String
 - Number
 - Boolean
@@ -79,78 +81,77 @@ excerpt: 《你不知道的JS》上卷读书笔记。Kyle Simpson的这部*you d
 - Date
 - RegExp
 - Error
- 
-### 对象的知识点
-- 字符串/数值/布尔值等在必要时会自动转成对象，比如42.1.toFixed(0)
-- 为什么typyof null === 'object'?
-    - js中二进制前三位都为0则会被判定为object，null全部为0，这是语言本身的bug
-- 属性名永远是字符串，不是字符串会自动转成字符串
-    - 但es6中的*Map*允许其他类型的属性名，书中说也会转成字符串，存疑。
-- 数组也可以加属性和方法，此时数组的length不变
-- 复制对象
-    - JSON安全的对象，JSON.parse(JSON.stringify(obj))
-    - Object.assign({}, obj)
 
-- 属性描述符
-    - writabe,属性是否可修改
-    - configurable,属性的描述符是否可改（false不可逆）
-    - enumeralbe,是否可枚举
-- 如何让对象不可改？
-    - writabe: false, configurable: false
-    - Object.preventExtension() 禁止增加新属性
-    - Object.seal(),密封对象,即Object.preventExtension() + 所有属性configurable: false
-    - Object.freeze(),冻结对象,即Object.seal() + 所有属性writabe: false
-- 如何区分属性是undefined还是属性不存在？
-    - 'a' in obj
-    - obj.hasOwnProperty()
-- 如何判断属性可枚举？
-    - 'a' in obj
-    - obj.propertyIsEnumable()
+### Object Concepts
+- Strings, numbers, booleans, etc., are automatically converted to objects when necessary, e.g., `42.1.toFixed(0)`.
+- Why does `typeof null === 'object'`?
+    - In JavaScript, if the first three bits of a binary value are all `0`, it is classified as an object. Since `null` is all `0`s, it's a bug in the language itself.
+- Property names are always strings. Non-string properties are automatically converted to strings.
+    - However, in ES6, `Map` allows non-string property names. The book suggests they are also converted to strings, but this is questionable.
+- Arrays can also have properties and methods, but their `length` does not change.
+- Cloning an object:
+    - JSON-safe object: `JSON.parse(JSON.stringify(obj))`
+    - `Object.assign({}, obj)`
 
-## 混合对象和“类”
+- Property descriptors:
+    - `writable`: Whether the property can be modified.
+    - `configurable`: Whether the property's descriptor can be changed (irreversible if set to `false`).
+    - `enumerable`: Whether the property is enumerable.
+- How to make an object immutable?
+    - `writable: false`, `configurable: false`
+    - `Object.preventExtensions()`: Prevents adding new properties.
+    - `Object.seal()`: Seals the object, equivalent to `Object.preventExtensions()` + all properties `configurable: false`.
+    - `Object.freeze()`: Freezes the object, equivalent to `Object.seal()` + all properties `writable: false`.
+- How to distinguish between `undefined` and a non-existent property?
+    - `'a' in obj`
+    - `obj.hasOwnProperty()`
+- How to check if a property is enumerable?
+    - `'a' in obj`
+    - `obj.propertyIsEnumerable()`
 
-- js没有真正的类，类和实例是抽象和具象的关系，而js的“类”实现是基于原型链，只存在关联，不存在继承和实例化。
+## Mixing Objects and "Classes"
 
-## 原型
-- 所有普通的原型链最终都指向内置的Object.prototype
-- js只有对象，没有类，是真正的“面向对象”语言
-- js中有一种奇怪的行为一直在被无耻地滥用，那就是模仿类。
+- JavaScript does not have real classes. The relationship between a class and an instance is abstract and concrete, while JavaScript's "class" implementation is based on the prototype chain. There is no inheritance or instantiation, only association.
 
-- 修改对象的原型 Object.setPrototypeOf(ojb, pObj)
-- 检测原型 obj.prototype.isPrototypeOf(x)
-- 获取原型 Object.getPrototype(obj)
+## Prototypes
+- All normal prototype chains eventually point to the built-in `Object.prototype`.
+- JavaScript has objects, not classes, making it a truly "object-oriented" language.
+- One of the most abused and misunderstood behaviors in JavaScript is the attempt to emulate classes.
 
-## 行为委托
+- Modify an object's prototype: `Object.setPrototypeOf(obj, pObj)`
+- Check a prototype: `obj.prototype.isPrototypeOf(x)`
+- Get a prototype: `Object.getPrototypeOf(obj)`
 
-- 委托比“类”要简洁
-- Object.create()语法优于class
-- ES6中的class只是语法糖，依然是基于原型
+## Behavior Delegation
 
+- Delegation is simpler than "class."
+- The `Object.create()` syntax is better than `class`.
+- The `class` syntax in ES6 is just syntactic sugar, still based on prototypes.
 
-## 勘误
-### p57 es6模块写法
-第一处错误：
+## Errata
+### p57 ES6 Module Syntax
+First mistake:
 ```
 bar.js
     function hello(who){
-        return "Let me intropduce:" + who;
+        return "Let me introduce:" + who;
     }    
     export hello;
 
 foo.js
-    // 仅从bar模块导入hello()
+    // Import hello() from the bar module
     import hello from "bar";
-    // 其他代码
+    // Other code
 ```
-这里写法是错的，直接import时，引入的是目标模块中export default的内容，浏览器会报错*Uncaught SyntaxError: The requested module 'xx.js' does not provide an export named 'default'*。
+This syntax is incorrect. When using `import` directly, the default export of the target module is imported. The browser will throw an error: *Uncaught SyntaxError: The requested module 'xx.js' does not provide an export named 'default'*.
 
-用对象解构写法*import {hello} from "bar"*,此时bar.js应*export {hello}*,或直接*export function hello...*
+Use object destructuring syntax `import {hello} from "bar";` if bar.js uses `export {hello};`, or `export function hello...`.
 
-三种正确写法：
+Three correct syntaxes:
 ```js
 bar.js
     function hello(who){
-        return "Let me intropduce:" + who;
+        return "Let me introduce:" + who;
     }    
     export {hello};
 
@@ -160,7 +161,7 @@ foo.js
 ```js
 bar.js
     export function hello(who){
-        return "Let me intropduce:" + who;
+        return "Let me introduce:" + who;
     }
     
 foo.js
@@ -169,22 +170,19 @@ foo.js
 ```js
 bar.js
     export default function hello(who){
-        return "Let me intropduce:" + who;
+        return "Let me introduce:" + who;
     }
     
 foo.js
     import hello from "bar";
 ```
-第二处错误：
+Second mistake:
 ```js
 module foo from "foo";
 ```
-```js
-module foo from "foo";
-```
-module关键字用法，实际不存在
+The `module` keyword does not actually exist.
 
-### p80 this
+### p80 `this`
 ```js
 function foo() {
   var a = 2;
@@ -195,8 +193,8 @@ function bar() {
 }
 foo(); // ReferenceError: a is not defined
 ```
-实际上不会报错，而是输出*undefined*
+In fact, it will not throw an error but will output *undefined*.
 
-### p106 对象的属性名
+### p106 Object Property Names
 
-书中说对象的属性名永远是字符串，但es6中的*Map*允许其他类型的属性名，书中说也会转成字符串，存疑。
+The book says that object property names are always strings, but in ES6, `Map` allows non-string property names. The book suggests they are also converted to strings, but this is questionable.

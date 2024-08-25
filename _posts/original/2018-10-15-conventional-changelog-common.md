@@ -1,56 +1,57 @@
 ---
 layout: page
-title: '如何用规范的git提交记录生成CHANGELOG?'
+title: 'How to Generate a CHANGELOG with Conventional Git Commit Messages?'
 categories: [tech]
 tags: [original]
-excerpt: 知名前端web项目AngularJS的提交记录在业内被许多人称赞，其规范同时也逐渐被大家引用。但日常开发中不一定方便都用英文撰写commit message，这里介绍一个兼容中文的规范集——[conventional-changelog-common](https://github.com/LiPinghai/conventional-changelog-common)。
+excerpt: "The commit messages of the well-known frontend web project AngularJS are praised by many in the industry, and its convention is gradually being adopted. However, writing commit messages in English is not always convenient in daily development. Here's an introduction to a convention set compatible with Chinese—[conventional-changelog-common](https://github.com/LiPinghai/conventional-changelog-common)."
 ---
-> 作者: 李平海
 
-知名前端web项目AngularJS的提交记录在业内被许多人称赞，其[规范](https://www.npmjs.com/package/conventional-changelog-angular)同时也逐渐被大家引用。但日常开发中不一定方便都用英文撰写commit message，这里介绍一个兼容中文的规范集——[conventional-changelog-common](https://github.com/LiPinghai/conventional-changelog-common)。
+> Author: Li Pinghai
 
-#### commit message类型
+The commit messages of the well-known frontend web project AngularJS are praised by many in the industry, and its [convention](https://www.npmjs.com/package/conventional-changelog-angular) is gradually being adopted. However, writing commit messages in English is not always convenient in daily development. Here's an introduction to a convention set compatible with Chinese—[conventional-changelog-common](https://github.com/LiPinghai/conventional-changelog-common).
 
-中文类型|英文类型|含义
+#### Commit Message Types
+
+Chinese Type | English Type | Meaning
 -|-|-
-新增|feat|新增api/功能
-修复|fix|修复问题
-删除|delete|删除api/参数等破坏性改动
-更新|refactor|重构代码/优化代码/对代码中配置参数的变更/项目配置变化
-优化|perf/chore/docs|格式优化/文档更新/优化测试等
-发布|release|新的版本号/release/tag(CHANGELOG在此改动)
-回滚|revert|回滚一次提交
-合并|merge|合并冲突/合并PR
+新增 | feat | New API/Feature
+修复 | fix | Bug Fix
+删除 | delete | Destructive changes such as deleting APIs/parameters
+更新 | refactor | Code refactoring/optimization, changes to configuration parameters in the code/project configuration
+优化 | perf/chore/docs | Format optimization/documentation updates/optimized tests, etc.
+发布 | release | New version/release/tag (CHANGELOG changes in this commit)
+回滚 | revert | Revert a previous commit
+合并 | merge | Merge conflicts/PRs
 
-#### commit message提交格式
+#### Commit Message Format
 
 ```md
-类型[(影响范围)] 标题
-// 空一行
-简要说明
-// 空一行
-关联issue/不兼容提示
+Type[(Scope)] Title
+// Leave a blank line
+Brief description
+// Leave a blank line
+Related issue/Incompatibility warning
 ```
-例子：
+Example:
 ```
 新增 xx.xxx接口
 
-此接口用于xxxxx，传参xxx，不兼容IE8以下
+This interface is used for xxxxx, with parameters xxx, not compatible with IE8 and below.
 
 close #1
 ```
 
-## 如何集成到前端项目中？
+## How to Integrate into a Frontend Project?
 
-安装*conventional-changelog-cli*和*conventional-changelogc-common*依赖。
+Install the *conventional-changelog-cli* and *conventional-changelog-common* dependencies.
 
 ```shell
 npm i conventional-changelog-cli conventional-changelog-common -D
 ```
 
-## 如何生成changelog？
+## How to Generate a Changelog?
 
-在package.json加上以下脚本(详细参数请运行*npx conventional-changelog-cli --help*查看)：
+Add the following script to the package.json (for detailed parameters, run *npx conventional-changelog-cli --help*):
 ```json
 {
     "scripts": {
@@ -58,31 +59,31 @@ npm i conventional-changelog-cli conventional-changelog-common -D
     }
 }
 ```
-再运行
+Then run:
 ```shell
 npm run changelog
 ```
-即在项目根目录生成/追加*CHANGELOG.md*
+This will generate/append a *CHANGELOG.md* file in the root directory of your project.
 
-CHANGELOG效果如下：
+The CHANGELOG will look like this:
 
 --------
 <a name="0.3.30"></a>
 ## [0.3.30](https://github.com/LiPinghai/conventional-changelog-common) (2018-12-19)
 
-### 更新:
+### Updates:
 
-* 更新 用xxx替换所有xx ([d3813ff](https://github.com/LiPinghai/conventional-changelog-common))
-* 更新 优化xxx接口参数 ([055d7c1](https://github.com/LiPinghai/conventional-changelog-common))
-* 更新 改xx.xxx()监听xxx为监听xxx ([bb7a489](https://github.com/LiPinghai/conventional-changelog-common))
+* Update Replace all xx with xxx ([d3813ff](https://github.com/LiPinghai/conventional-changelog-common))
+* Update Optimize parameters of xxx interface ([055d7c1](https://github.com/LiPinghai/conventional-changelog-common))
+* Update Change xx.xxx() listener from xxx to xxx ([bb7a489](https://github.com/LiPinghai/conventional-changelog-common))
 
-### 修复:
+### Fixes:
 
-* 修复 xx和xx模块埋点覆盖冲突问题 ([1894a3a](https://github.com/LiPinghai/conventional-changelog-common))
-* 修复 在xx环境下，xx报错的问题 ([e577220](https://github.com/LiPinghai/conventional-changelog-common))
+* Fix Conflict issue with buried points in xx and xx modules ([1894a3a](https://github.com/LiPinghai/conventional-changelog-common))
+* Fix Error in xx environment ([e577220](https://github.com/LiPinghai/conventional-changelog-common))
 
-### 新增:
+### New Features:
 
-* 新增 xx增加xx接口 ([fb40edc](https://github.com/LiPinghai/conventional-changelog-common))
-* 新增 xx模块 ([fe1d1bd](https://github.com/LiPinghai/conventional-changelog-common))
+* Add xx interface to xx ([fb40edc](https://github.com/LiPinghai/conventional-changelog-common))
+* Add xx module ([fe1d1bd](https://github.com/LiPinghai/conventional-changelog-common))
 --------

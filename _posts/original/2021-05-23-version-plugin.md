@@ -1,77 +1,76 @@
 ---
 layout: page
-title: '前端页面版本老是傻傻搞不清？用这个插件一键搞定'
+title: 'Can’t Keep Track of Frontend Versions? Use This Plugin to Solve It in One Click'
 categories: [tech]
 tags: [original]
-excerpt: '实践中，我们经常要通过流水线、自动脚本等发布前端代码到服务器。有时候难以分辨究竟发布成功了没。或者多人、多分支共用一个环境时，更是容易混乱打架。用version-plugin注入版本信息，一键搞定，轻松分辨页面代码版本。'
+excerpt: 'In practice, we often deploy frontend code to the server through pipelines and automation scripts. Sometimes it’s hard to tell if the deployment was successful. When multiple people or branches share the same environment, it’s easy for things to get mixed up. With version-plugin, you can inject version information and easily identify the page code version with one click.'
 ---
 
-实践中，我们经常要通过流水线、自动脚本等发布前端代码到服务器。有时候难以分辨究竟发布成功了没。或者多人、多分支共用一个环境时，更是容易混乱打架。
+In practice, we often deploy frontend code to the server through pipelines and automation scripts. Sometimes it’s hard to tell if the deployment was successful. When multiple people or branches share the same environment, it’s easy for things to get mixed up.
 
-“谁又把我的代码覆盖了？！”
+"Who overwrote my code again?!"
 
-“那个谁，究竟发布生产了没？”
+"Did someone actually deploy to production or not?"
 
-“流水线挂了还没报错？？”
+"The pipeline failed but didn’t report an error?!"
 
-测试、开发都哭了。
+Testers and developers are all frustrated.
 
-如何迅速辨别当前页面代码是什么版本？我们可以自行用`webpack.DefinePlugin`注入信息到全局。
+How can we quickly identify what version of code is currently on the page? We can manually use `webpack.DefinePlugin` to inject information into the global scope.
 
-也可以用**version-plugin**，一键搞定，效果如下：
+Or, you can use **version-plugin** to solve it in one click, as shown below:
 
 ![image.png](./assets/version-plugin.png)
 
-
-以下为插件文档：
+Below is the plugin documentation:
 
 # [version-plugin](https://www.npmjs.com/package/version-plugin)
 
-用于注入*版本信息*到项目代码中的webpack插件。
+A webpack plugin used to inject *version information* into project code.
 
 https://www.npmjs.com/package/version-plugin
 
-## 开始
+## Getting Started
 
-首先安装 `version-plugin`:
+First, install `version-plugin`:
 
 ```
 npm install version-plugin -D
 ```
 
-然后在webpack配置中加入VersionPlugin相关配置：
+Then, add the VersionPlugin configuration to your webpack setup:
 
 **webpack.config.js**
-```
+```js
 const VersionPlugin = require('version-plugin');
 
 module.exports = {
   plugins: [new VersionPlugin()]
 };
+
 ```
 
-运行 `npm run dev`或 `npm run build`, `version-plugin` 会在项目中注入全局变量 `VERSION_INFO` 。
+Run npm run dev or npm run build, and version-plugin will inject a global variable VERSION_INFO into your project.
 
-## 选项
+## Options
 
-### 插件选项
+### Plugin Options
 
-|              变量名             |       类型      |                默认值                |                       描述               |
-| :---------------------------: | :-------------: | :-----------------------------------: | :---------------------------------------------- |
-|        **`name`**             |    `{String}`   |             `VERSION_INFO`            | 注入到全局中的变量名              |
-|      **[`mode`](#mode)**      |`{'all'｜String｜Array}`|             `development`            | 指定在哪些webpack模式中启用  |
-|**[`dataOption`](#dataOption)**|    `{Object}`   |                  {}                   | 具体的版本信息配置                 |
-
+|       Variable Name       |      Type       |       Default Value       |               Description               |
+| :-----------------------: | :-------------: | :-----------------------: | :--------------------------------------: |
+|        **`name`**         |    `{String}`   |      `VERSION_INFO`       |  Name of the global variable to inject   |
+|    **[`mode`](#mode)**    |`{'all'｜String｜Array}`|   `development`   | Specifies in which webpack modes to enable |
+| **[`dataOption`](#dataOption)** |   `{Object}`    |          {}             |      Specific version information        |
 
 ### mode
 
-基于安全理由，Version Plugin默认**只在**development mode中启用。改成`all`的话就会在所有模式中启用，也可以传入指定mode名字或数组。
+For security reasons, Version Plugin is **only enabled** in development mode by default. If set to `all`, it will be enabled in all modes. You can also pass a specific mode name or an array of modes.
 
 ### dataOption
 
-Version Plugin 会默认注入 `git_branch` 和 `git_commit_hash` 两项版本信息。 
+Version Plugin will, by default, inject `git_branch` and `git_commit_hash` as version information.
 
-还有以下信息供选用：
+The following additional information is also available for use:
 ```
 git_commit_fullhash
 git_commit_time
@@ -81,9 +80,10 @@ git_commit_message
 package_version
 build_time
 ```
-把这些信息设置为 `true` 就会启用, 传 `String` / `Number` 值或者函数的话，会覆写掉默认值。 除了以上9项信息，也可以自行传扩展字段。
 
-示例:
+Setting these options to `true` will enable them. If you pass a `String` / `Number` value or a function, it will override the default value. Besides the above 9 items, you can also pass custom fields.
+
+Example:
 
 ```js
 new VersionPlugin({
@@ -99,7 +99,7 @@ new VersionPlugin({
 })
 ```
 
-然后看浏览器控制台:
+Then check the browser console:
 
 ```js
 

@@ -1,31 +1,32 @@
+
 ---
 layout: page
-title: '面向git编程'
+title: 'Programming with Git'
 categories: [tech]
 tags: [original]
-excerpt: 遵循良好的git使用习惯才能发挥git的最大效用，本文介绍了git的基本原则/对git友好的语法/提交的合理粒度/提交记录规范等等。
+excerpt: "Following good Git practices is key to maximizing its effectiveness. This article introduces the basic principles of Git usage, Git-friendly syntax, appropriate commit granularity, commit message conventions, and more."
 ---
-> 作者: 李平海
 
-## git使用基本原则
+> Author: Li Pinghai
 
-- 只包括需要共享/记录的文件，避免包括特大文件/无用的编译结果/特定系统文件/冗余文件 
-- 使用对git友好的语法/项目结构/文件命名
-- 在本地新建分支/特定分支开发新功能
-- 变基/合并改动到合适的commit粒度
-- 按格式写commit message
-- 删除已合并的分支
-- 按发布节点打tag
+## Basic Principles of Git Usage
 
+- Include only files that need to be shared/recorded, avoiding large files, unnecessary compiled results, system-specific files, or redundant files.
+- Use Git-friendly syntax, project structure, and file naming.
+- Create a new branch locally or in a specific branch to develop new features.
+- Rebase/merge changes to the appropriate commit granularity.
+- Write commit messages in the correct format.
+- Delete merged branches.
+- Tag release nodes.
 
-## 使用对git友好的语法/项目结构/文件命名
+## Git-Friendly Syntax, Project Structure, and File Naming
 
-git变动以行/文件为单位，因此要避免无意义的行/文件改动，不在一行内写多个逻辑，避免在记录中难以辨别改了什么。
+Git tracks changes at the line/file level, so it's essential to avoid meaningless line/file changes. Do not write multiple logics in one line to make it easier to identify what has changed in the record.
 
-### 一行只写一个逻辑（赋值/判断）
+### Write One Logic Per Line (Assignment/Comparison)
 
+#### Separate Object Assignments, Write HTML/CSS in Multiple Lines
 
-#### 对象分开赋值，分行写html/css
 ```javascript
 // incorrect
 let a, b = 1, c = 2;
@@ -40,11 +41,11 @@ let c = 2;
 
 ```html
 <!--incorrect-->
-<div><span>标签1</span></div>
+<div><span>Label 1</span></div>
 
 <!--correct-->
 <div>
-  <span>标签1</span>
+  <span>Label 1</span>
 </div>
 ```
 
@@ -59,9 +60,7 @@ div{
 }
 ```
 
-
-#### 对象属性/数组元素换行写
-
+#### Write Object Properties/Array Elements on Separate Lines
 
 ```js
 // incorrect
@@ -72,38 +71,33 @@ let c = {
   foo: 1, 
   bar: 2,
 };
-
 ```
 
-#### 避免冗长三元逻辑/三元分支赋值
+#### Avoid Lengthy Ternary Logic/Ternary Branch Assignment
 
 ```js
 // incorrect
-result ? success && success() : error && error('当前浏览器不支持复制操作，请手动复制!');
+result ? success && success() : error && error('The current browser does not support copy operations, please copy manually!');
 
 // correct
 if (result) {
   success && success();
 } else {
-  error && error('当前浏览器不支持复制操作，请手动复制!');
+  error && error('The current browser does not support copy operations, please copy manually!');
 }
 
-
 // incorrect
-  _SDKApp['load'].indexOf('clientGame') !== -1 ? pageInfo = '端游产品' : pageInfo = '页游产品';
+  _SDKApp['load'].indexOf('clientGame') !== -1 ? pageInfo = 'Client Game Product' : pageInfo = 'Web Game Product';
 
 // correct
 if (_SDKApp['load'].indexOf('clientGame') !== -1){
-  pageInfo = '端游产品';
+  pageInfo = 'Client Game Product';
 } else {
-  pageInfo = '页游产品'
+  pageInfo = 'Web Game Product';
 }
-
 ```
 
-
-#### 避免一行内同时赋值/执行方法和比较
-
+#### Avoid Assigning/Calling Methods and Comparing in One Line
 
 ```js
 // incorrect
@@ -118,11 +112,9 @@ if(sourceName === paramName){
 }
 ```
 
-### 避免无意义的变动
+### Avoid Meaningless Changes
 
-
-#### 加上最后一行的逗号/分号
-
+#### Add Commas/Semicolons to the Last Line
 
 ```javascript
 // incorrect
@@ -155,11 +147,9 @@ let c = {
   }
 ```
 
-### 注意系统差异
+### Be Aware of System Differences
 
-
-#### 避免包括特定系统的文件
-
+#### Avoid Including System-Specific Files
 
 ```
 // .gitignore
@@ -167,91 +157,78 @@ let c = {
 Thumbs.db
 ```
 
-#### 文件名大小写？换行符？
-
+#### File Name Case Sensitivity? Line Endings?
 
 ```
-// 全局设置不要自动改换行符
+// Disable automatic line ending conversion globally
 git config --global core.autocrlf false
 
-// 全局设置大小写敏感
+// Set global case sensitivity
 git config --global core.ignorecase false 
 
-// 强制更新文件
+// Force file update
 git mv --force filename FILENAME
 ```
 
-## 提交/分支/标签的粒度
+## Commit/Branch/Tag Granularity
 
-提交commit是git使用的基本操作单位，控制好合适的提交粒度对git使用质量至关重要。
+The commit is the basic unit of Git operations. Controlling the appropriate commit granularity is crucial to the quality of Git usage.
 
-### 提交（commit）的粒度？
+### What is the Granularity of a Commit?
 
-#### 提交应该是:
+#### A Commit Should Be:
 
-- 一个问题修复（fix） 
-- 一个代码功能（特性）增加/删除（feat）
-- 一个代码优化/重构（style，refactor）
-- 一个文档改动（docs）
-- 一次测试改动（test）
-- 一个发布节点（release）
-- 一次回滚（revert）
-- 一次合并（merge）
+- A bug fix (`fix`)
+- An addition/deletion of a code feature (`feat`)
+- A code optimization/refactoring (`style`, `refactor`)
+- A documentation change (`docs`)
+- A test change (`test`)
+- A release node (`release`)
+- A rollback (`revert`)
+- A merge (`merge`)
 
+#### A Commit Should Not Be:
 
-#### 提交不应该是:
+- Meaningless changes (empty lines/trailing characters/LF or CRLF)
+- Incomplete changes/non-working changes (a day's code, a week's code)
+- Mixed multiple features/changes
 
-- 无意义的改动（空行/行尾符号/LForCRLF）
-- 不完整的改动/跑不通的改动（一天的代码，一周的代码）
-- 混杂了多个功能/改动
+### The Meaning of Branches
 
+#### Branches on the Repository
 
-### 分支（branch）的意义
+- A historical version
+- A specific version
+- A new feature
 
-#### 仓库上的分支
+#### Local Branches
 
-- 一个历史版本 
-- 一个特定版本
-- 一个新功能特性
+- Developing new features
 
+### The Meaning of Tags
 
+- New project version number
+- A public release/project online version node
 
-#### 本地的分支
+## Git Commit Message Conventions
 
-- 开发新功能特性 
+### The Benefits of Writing Commit Messages According to the Convention
 
-### 标签（tag/release）的意义
+- Key information in the commit history is more distinct.
+- Facilitates the use of `git bisect` to find errors (ignores irrelevant commits).
+- Easier to generate `CHANGELOG.md` with scripts.
 
-- 新的项目版本号 
-- 一个公开发布/项目上线的版本节点
-
-
-##	Git提交记录规范
-
-
-### 按规范写提交记录的好处
-
-
-
-- 使提交历史中的关键信息更分明
-- 便于使用`git bisect`查找错误（忽略无关提交）
-- 便于用脚本生成`CHANGELOG.md`
-
-
-### Angular规范：
-
-
+### Angular Convention:
 
 ```md
 type[(scope)]: subject
-// 空一行
-body（第一人称简要说明）
-// 空一行
-footer（不兼容变动/关闭issue）
+// Leave a blank line
+body (brief explanation in the first person)
+// Leave a blank line
+footer (incompatible changes/closing issues)
 ```
 
-以vue一次提交为例:
-
+An example from a Vue commit:
 
 ```
 fix(ssr): render initial and used async css chunks (#7902)
@@ -261,91 +238,81 @@ compatibility with webpack 4 + mini CSS extraction
 close #7897 
 ```
 
-### 中文规范
+### Chinese Convention
 
-对于非开源的业务项目，使用英文并不方便和直观，我们可以尝试用中文的提交规范
+For non-open source business projects, using English is not convenient or intuitive. We can try using a Chinese commit convention.
 
-#### 中文提交格式
+#### Chinese Commit Format
 
 ```md
 类型[(影响范围)] 标题
-// 空一行
-简要说明
-// 空一行
-关联issue/不兼容提示
+// Leave a blank line
+Brief description
+// Leave a blank line
+Related issue/Incompatibility warning
 ```
 
-#### 提交类型
+#### Commit Types
 
-
-
-类型名称|含义
+Type | Meaning
 -|-
-新增|新增api/特性
-修复|修复问题
-删除|删除api/参数等
-更新|重构代码/优化代码/对代码中配置参数的变更/项目配置变化
-优化|格式优化/文档更新/优化测试等
-发布|新的版本号/release/tag(CHANGELOG在此改动)
-回滚|回滚一次提交
-合并|合并冲突/合并PR
+新增 | New API/Feature
+修复 | Bug Fix
+删除 | Deleting APIs/Parameters, etc.
+更新 | Code refactoring/optimization, changes to configuration parameters in the code/project configuration
+优化 | Format optimization/documentation updates/optimized tests, etc.
+发布 | New version/release/tag (CHANGELOG changes in this commit)
+回滚 | Revert a previous commit
+合并 | Merge conflicts/PRs
 
-#### 注意事项
+#### Notes
 
+- API changes should clearly specify the API name.
 
-- API变动需要明确指出API名字
-
-
-中文规范例子
-
-
+Chinese convention example:
 
 ```
 新增 Xx.xxx接口
 
-此接口功能很强大，传参请随意，不兼容IE8以下
+This interface is very powerful, feel free to pass parameters, not compatible with IE8 and below.
 
 close #1
 ```
 
-##	Git提交记录操作
+## Git Commit Message Operations
 
-使用git出错或者采用临时commit在所难免，我们需要对commit进行合理优化
+It's inevitable to make mistakes or use temporary commits when using Git. We need to optimize commits reasonably.
 
-
-### 修改最近提交信息
-
+### Modify the Most Recent Commit Message
 
 ```
 git commit --amend
 ```
 
-### 修改多次提交
-
+### Modify Multiple Commits
 
 ```
 git rebase -i CommitHash
 ```
 
-### 移动提交记录	
-
+### Move Commit Records
 
 ```
 git rebase --onto TargetBranch/TargetCommit 
 ```
 
-详细操作请参阅[Git变基](https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%8F%98%E5%9F%BA)。
+For detailed operations, refer to [Git Rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing).
 
-## 参考资料
+## References
 
-[Linux提交记录](https://github.com/torvalds/linux/commits/master)
+[Linux Commit Messages](https://github.com/torvalds/linux/commits/master)
 
-[vue提交记录](https://github.com/vuejs/vue/commits/)
+[Vue Commit Messages](https://github.com/vuejs/vue/commits/)
 
-[Angular提交规范](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
+[Angular Commit Convention](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
 
-[阮老师谈commit message](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+[Ruanyifeng on Commit Messages](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
-[git demo](http://gitlab.game.yypm.com:10080/lipinghai/git-demo)
+[Git Demo](http://gitlab.game.yypm.com:10080/lipinghai/git-demo)
 
-[conventional-changelog-yygame规范](https://github.com/LiPinghai/conventional-changelog-yygame)
+[conventional-changelog-yygame Convention](https://github.com/LiPinghai/conventional-changelog-yygame)
