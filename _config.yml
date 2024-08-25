@@ -1,18 +1,18 @@
 # Site settings
-title: 前端流浪者
+title: FrontEnd Wanderer
 url: "https://lipinghai.cn"   
 baseurl: "/blog_en" 
-description: >
-  尘世间一个迷途书童
+# description: >
+  # 尘世间一个迷途书童
 # Your information
 email: leepinghai@gmail.com
-author: 李平海
+author: Pinghai Li
 authorEn: LiPinghai
 avatar: "//f2e.yy.com/s/activity/huya/avatar.jpg"
-profile: 尘世间一个迷途书童
+# profile: true
 company: Tencent
 location: Ontario, Canada
-record: 粤ICP备2023147381号-1
+# record: 粤ICP备2023147381号-1
 #twitter_username: twitter_username
 #github_username:  lipinghai
 profile_links:
@@ -31,9 +31,9 @@ google_analytics: UA-135381641-1
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
-    首页: /
-    归档: /category/
-    关于本站: /about/
+    Home: /
+    Category: /category/
+    About: /about/
 
 permalink: /:title
 plugins:
