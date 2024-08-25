@@ -36,9 +36,9 @@ layout: default
   {% endif %}
   <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">下一页</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Prev</a>
   {% else %}
-    <span class="next ">下一页</span>
+    <span class="next ">Next</span>
   {% endif %}
 </div>
 
