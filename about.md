@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 关于本站
+title: About
 permalink: /about/
 ---
 
-前端流浪者，李平海的个人博客，主营前端技术，兼营书评社评杂谈。
+Front-End Wanderer, Li Pinghai’s personal blog, specializes in front-end technology and also engages in book reviews and editorial commentary.
 
 email: leepinghai@gmail.com
 
