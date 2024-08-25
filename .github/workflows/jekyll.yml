@@ -34,8 +34,8 @@ jobs:
         path: _site
     - uses: matheusvanzan/sshpass-action@v2
       with:
-        host: ${{ secrets.BLOG_HOST }}
-        user: ${{ secrets.BLOG_USER }}
+        host: ${{ variables.BLOG_HOST }}
+        user: ${{ variables.BLOG_USER }}
         pass: ${{ secrets.BLOG_PASSWORD }}
     - run: |
-        sshpass -p '${{secrets.BLOG_PASSWORD}}' rsync ./_site/ -r -e 'ssh -o StrictHostKeyChecking=no' ${{secrets.BLOG_USER}}@${{secrets.BLOG_HOST}}:${{secrets.BLOG_PATH}}
+        sshpass -p '${{secrets.BLOG_PASSWORD}}' rsync ./_site/ -r -e 'ssh -o StrictHostKeyChecking=no' ${{variables.BLOG_USER}}@${{variables.BLOG_HOST}}:${{variables.BLOG_PATH}}
