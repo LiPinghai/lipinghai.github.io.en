@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Programming with Git'
+title: 'Git Oriented Programming'
 categories: [tech]
 tags: [original]
 excerpt: "Following good Git practices is key to maximizing its effectiveness. This article introduces the basic principles of Git usage, Git-friendly syntax, appropriate commit granularity, commit message conventions, and more."
