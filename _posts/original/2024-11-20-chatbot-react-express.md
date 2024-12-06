@@ -3,7 +3,7 @@ layout: page
 title: 'Building a Full-Stack Chatbot: React Frontend, Express Backend, and OpenAI API Integration'
 categories: [tech]
 tags: [original]
-excerpt: 'Chatbots are becoming increasingly popular for creating interactive web applications, and combining the power of React, Express, and OpenAI's API makes it easy to develop one.'
+excerpt: 'Building a Full-Stack Chatbot: React Frontend, Express Backend, and OpenAI API Integration'
 ---
 
 Chatbots are becoming increasingly popular for creating interactive web applications, and combining the power of React, Express, and OpenAI's API makes it easy to develop one. In this tutorial, you’ll learn how to build a fully functional chatbot that features:
