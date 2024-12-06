@@ -14,7 +14,7 @@ Chatbots are becoming increasingly popular for creating interactive web applicat
 
 By the end of this guide, you’ll have a chatbot website that is ready to be deployed, combining seamless interaction and advanced AI capabilities. Let’s dive in!
 
-## Build the server**
+## Build the server
 
 ### 1. Set Up the Project
 
@@ -41,13 +41,13 @@ Then a package.json file will appear.
 npm install express cors openai dotenv
 ```
 
-## 2. Get Your OpenAI API Key
+### 2. Get Your OpenAI API Key
 
 1. Sign up at [OpenAI](https://platform.openai.com/) if you don’t have an account.
 2. Generate an API key from the [OpenAI API keys page](https://platform.openai.com/api-keys).
 3. Keep the API key secure; you’ll use it in the .env file.
 
-## 3. Create the Express Server
+### 3. Create the Express Server
 
 Create a file named server.js in the project root directory.
 
@@ -118,7 +118,7 @@ curl -X POST http://localhost:3005/chatbot/chat \
 ```
 If everything works correctly, you should receive a response from ChatGPT.
 
-## 4. Create the React Web App
+## Create the React Web App
 
 ### Step 1: Set Up React Project
 Create a new React + Vite project:
@@ -325,7 +325,7 @@ input:focus{
 }
 ```
 
-### Step 5: Run and Test
+### Step 4: Run and Test
 Start the Vite development server:
 
 ```bash
@@ -336,7 +336,7 @@ Open the app in the browser at http://localhost:5173.
 
 Type a message in the input box and send it. The chatbot will call your backend and display the ChatGPT response.
 
-## 5. Build and Deploy
+## Build and Deploy
 To build the app for production:
 
 ```bash
