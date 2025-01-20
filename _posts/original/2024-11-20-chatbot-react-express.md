@@ -5,6 +5,7 @@ categories: [tech]
 tags: [original]
 excerpt: 'Building a Full-Stack Chatbot: React Frontend, Express Backend, and OpenAI API Integration'
 ---
+[REPO](https://github.com/LiPinghai/react-chatbot) https://github.com/LiPinghai/react-chatbot
 [DEMO](https://www.lipinghai.com/chatbot/)  https://www.lipinghai.com/chatbot/
 
 Chatbots are becoming increasingly popular for creating interactive web applications, and combining the power of React, Express, and OpenAI's API makes it easy to develop one. In this tutorial, you’ll learn how to build a fully functional chatbot that features:
